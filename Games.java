@@ -178,13 +178,13 @@ public class Games {
         }
         for(int i=0;i<Velha.length;i++){
                 
-                for(int j=0;j<Velha.length;j++){
-                    
-                    System.out.print(Velha[i][j] + " ");
-                 }
-                System.out.println("");
+            for(int j=0;j<Velha.length;j++){
+
+                System.out.print(Velha[i][j] + " ");
             }
-        
+            System.out.println("");
+        }
+        input.close();
     }
     
 }
